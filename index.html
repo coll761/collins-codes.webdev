@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collins Gituku - Full Stack Web Developer</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#3b82f6',secondary:'#64748b'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="port.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-['Pacifico'] text-primary">Collins</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-primary font-medium">About</a>
+                    <a href="#skills" class="text-gray-700 hover:text-primary font-medium">Skills</a>
+                    <a href="#services" class="text-gray-700 hover:text-primary font-medium">Services</a>
+                </div>
+                <div class="flex items-center">
+                    <a href="#contact"><button class="bg-primary text-white px-5 py-2 !rounded-button font-medium hover:bg-blue-600 transition-colors whitespace-nowrap">Hire Me</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+    class="pt-24 relative overflow-hidden"
+    style="background-image: url('https://public.readdy.ai/ai/img_res/8b980737ce4927f575914da8e0224f55.jpg'); background-size: cover; background-position: center;"
+  >
+    <div
+      class="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent"
+    ></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="flex flex-col md:flex-row items-center py-20 md:py-32">
+        <div class="w-full md:w-1/2 text-left mb-12 md:mb-0">
+          <h1
+            class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">Full Stack Web Developer
+          </h1>
+          <p class="text-xl text-gray-700 mb-8 max-w-lg">
+            Transforming ideas into elegant, functional digital experiences
+            with clean code and creative solutions.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#contact"><button
+              class="bg-primary text-white px-8 py-3 !rounded-button font-medium shadow-lg hover:shadow-primary/20 hover:bg-primary/90 transition whitespace-nowrap"
+            >
+            Let's Connect
+            </button></a>
+            <a href="#services"><button
+              class="bg-white text-primary px-8 py-3 !rounded-button font-medium shadow-lg border border-primary hover:bg-gray-50 transition whitespace-nowrap"
+            >
+              View Services
+            </button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Professional Summary -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900">About Me</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="../my website/img2.jpg" alt="Professional Portrait" class="rounded-lg shadow-lg w-full object-cover object-top">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Hi, I'm Collins Gituku</h3>
+                    <p class="text-gray-700 mb-6 text-justify">Hi! I'm Collins, an aspiring web developer who loves creating responsive, interactive, and user-friendly websites. I've always been fascinated by the web and how all the pieces work together to deliver smooth online experiences. That curiosity led me to study web technologies like HTML, CSS, JavaScript, and front-end frameworks in detail.<br>
+
+                        While I am starting my professional career, already I have accomplished a variety of projects, varying from personal portfolio websites to compact web applications, and I just continue to learn and grow new skills with each line of code that I generate.<br> I am particularly excited by the possibilities within front-end programming and how that design and function can come together to create instinctive user experiences.
+                        
+                        I’m always eager to learn more, experiment with new tools, and take on challenges that help me improve.<br> Whether I’m coding, debugging, or collaborating with others, I’m focused on producing clean, efficient code and building web applications that meet the needs of users.
+                        
+                        <br>My mission is to bridge the gap between design and functionality, creating digital solutions that not only look great but also solve real business problems, don't be afraid to reach out to me if you'd like to collaborate or talk about web development. Feel free to navigate my website.</p>
+                    
+                    <div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/collins-gituku-72238735a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
+                            <i class="ri-linkedin-fill text-gray-700"></i>
+                        </a>
+                        <a href="https://wa.me/+254112549166?text=Hello%20there" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
+                            <i class="ri-whatsapp-fill text-gray-700"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
+                            <i class="ri-dribbble-fill text-gray-700"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Expertise section-->
+    <section id="skills"  class="expertise-section">
+        <div class="container">
+            <h1 class="section-title">Technical Expertise</h1>
+            <div class="title-underline"></div>
+            
+            <p class="section-description">
+                Here are some of the core skills that I bring to every project, ensuring quality and 
+                innovation in every line of code.
+            </p>
+            
+            <div class="skills-grid">
+                <!-- HTML & CSS -->
+                <div class="skill-card">
+                    <h2>HTML & CSS</h2>
+                    <p>Crafting structured, semantic HTML and visually appealing, responsive CSS designs.</p>
+                </div>
+                
+                <!-- JavaScript -->
+                <div class="skill-card">
+                    <h2>JavaScript</h2>
+                    <p>Building dynamic and interactive web applications using modern JavaScript frameworks.</p>
+                </div>
+                
+                <!-- React.js -->
+                <div class="skill-card">
+                    <h2>React.js</h2>
+                    <p>Developing scalable and efficient front-end applications using React.js.</p>
+                </div>
+                
+                <!-- php -->
+                <div class="skill-card">
+                    <h2>PHP</h2>
+                    <p>Proficient in PHP for creating dynamic web applications, MySQL database management, and MVC architecture. .</p>
+                </div>
+                
+                <!-- Version Control -->
+                <div class="skill-card">
+                    <h2>Version Control</h2>
+                    <p>Proficient in Git for version control and collaborative development.</p>
+                </div>
+                
+                <!-- Database Management -->
+                <div class="skill-card">
+                    <h2>Database Management</h2>
+                    <p>Experience working with SQL and NoSQL databases for data-driven applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    
+        <div class="expertise-container">
+            <div class="expertise-card">
+                <div class="icon-container">
+                    <div class="w-16 h-16 flex items-center justify-center rounded-full bg-blue-100 mx-auto mb-4">
+                        <i class="ri-tools-fill text-primary ri-xl"></i>
+                    </div>
+                </div>
+                <h3>Development Tools</h3>
+                <p>Git, VS Code, Docker, Webpack, Gulp</p>
+            </div>
+            
+            <div class="expertise-card">
+                <div class="icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Figma, Adobe XD, Sketch, Responsive Design</p>
+            </div>
+            
+            <div class="expertise-card">
+                <div class="icon-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                    </svg>
+                </div>
+                <h3>Cloud Services</h3>
+                <p>AWS, Google Cloud, Firebase, Netlify</p>
+            </div>
+            
+            <div class="expertise-card">
+                <div class="icon-container">
+                    <div class="w-16 h-16 flex items-center justify-center rounded-full bg-blue-100 mx-auto mb-4">
+                        <i class="ri-test-tube-fill text-primary ri-xl"></i>
+                    </div>
+                </div>
+                <h3>Testing</h3>
+                <p>Jest, Mocha, Cypress, React Testing Library</p>
+            </div>
+        </div>
+    
+  
+
+            
+
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Services I Offer</h2>
+            <div class="title-underline"></div>
+            <p class="section-subtitle">Comprehensive web development solutions tailored to your needs</p>
+            
+            <div class="services-grid">
+                <!-- Web Development -->
+                <div class="service-card">
+                    
+                    <div class="icon-container2">
+                            <i class="ri-code-s-slash-line text-primary ri-xl"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with the latest technologies to deliver exceptional user experiences.</p>
+                    <ul class="service-features">
+                        <li><i class="ri-check-line"></i> Responsive design for all devices</li>
+                        <li><i class="ri-check-line"></i>Frontend and backend development</li>
+                        <li><i class="ri-check-line"></i> E-commerce solutions</li>
+                    </ul>
+                   
+                </div>
+                
+                <!-- UI/UX Design -->
+                <div class="service-card">
+                    <div class="icon-container2">
+                        <i class="ri-layout-4-line text-primary ri-xl"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design that combines aesthetics with functionality to create intuitive and engaging interfaces.</p>
+                    <ul class="service-features">
+                        <li><i class="ri-check-line"></i> User research and testing</li>
+                        <li><i class="ri-check-line"></i> Wireframing and prototyping</li>
+                        <li><i class="ri-check-line"></i> Interactive design elements</li>
+                    </ul>
+                    
+                </div>
+                
+                <!-- Mobile Responsiveness -->
+                <div class="service-card">
+                    <div class="icon-container2">
+                        <i class="ri-smartphone-line text-primary ri-xl"></i>
+                    </div>
+                    <h3>Mobile Responsiveness</h3>
+                    <p>Ensuring your website looks and functions perfectly across all devices and screen sizes.</p>
+                    <ul class="service-features">
+                        <li><i class="ri-check-line"></i> Fluid layouts and grids</li>
+                        <li><i class="ri-check-line"></i> Touch-friendly interfaces</li>
+                        <li><i class="ri-check-line"></i> Cross-browser compatibility</li>
+                    </ul>
+                  
+                </div>
+                
+                <!-- Performance Optimization -->
+                <div class="service-card">
+                    <div class="icon-container2">
+                        <i class="ri-speed-up-line text-primary ri-xl"></i>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Improving website speed and performance to enhance user experience and SEO rankings.</p>
+                    <ul class="service-features">
+                        <li><i class="ri-check-line"></i> Code optimization</li>
+                        <li><i class="ri-check-line"></i> Image and asset optimization</li>
+                        <li><i class="ri-check-line"></i> Caching strategies</li>
+                    </ul>
+                  
+                </div>
+                
+                <!-- Database Design -->
+                <div class="service-card">
+                    <div class="icon-container2">
+                        <i class="ri-database-2-line text-primary ri-xl"></i>
+                    </div>
+                    <h3>Database Design</h3>
+                    <p>Efficient database architecture to ensure your application data is organized, secure, and scalable.</p>
+                    <ul class="service-features">
+                        <li><i class="ri-check-line"></i> SQL and NoSQL databases</li>
+                        <li><i class="ri-check-line"></i> Data migration and integration</li>
+                        <li><i class="ri-check-line"></i> Performance tuning</li>
+                    </ul>
+                   
+                </div>
+                
+                <!-- Maintenance & Support -->
+                <div class="service-card">
+                    <div class="icon-container2">
+                        <i class="ri-customer-service-2-line text-primary ri-xl"></i>
+                    </div>
+                    <h3>Maintenance & Support</h3>
+                    <p>Ongoing support and maintenance to keep your website secure, up-to-date, and running smoothly.</p>
+                    <ul class="service-features">
+                        <li><i class="ri-check-line"></i> Regular updates and security patches</li>
+                        <li><i class="ri-check-line"></i> Performance monitoring</li>
+                        <li><i class="ri-check-line"></i> Technical support</li>
+                    </ul>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+   
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <span class="text-2xl font-['Pacifico'] text-white mb-4 block">Collins Gituku</span>
+                    <p class="text-gray-400 mb-6 max-w-md">Transforming ideas into exceptional web experiences with clean code and creative solutions.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/collins-gituku-72238735a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition-colors">
+                            <i class="ri-linkedin-fill text-white"></i>
+                        </a>
+                        <a href="https://wa.me/+254112549166?text=Hello%20there" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition-colors">
+                            <i class="ri-whatsapp-fill text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition-colors">
+                            <i class="ri-dribbble-fill text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+                        <li><a href="#skills" class="text-gray-400 hover:text-white transition-colors">Skills</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-3">
+                      <li class="flex items-start">
+                        <div
+                          class="w-5 h-5 flex items-center justify-center text-gray-400 mt-0.5"
+                        >
+                          <i class="ri-mail-line"></i>
+                        </div>
+                        <a href="mailto:collinsgitukuwebdev@gmail.com" target="_blank" class="flex items-center text-gray-400 hover:text-white transition-colors">
+                        <span class="text-gray-400 hover:text-white transition-colors">collinsgitukuwebdev@gmail.com</span></a>
+                      </li>
+                      <li class="flex items-start">
+                        <div
+                          class="w-5 h-5 flex items-center justify-center text-gray-400 mt-0.5"
+                        >
+                          <i class="ri-phone-line"></i>
+                        </div>
+                        <span class="ml-3 text-gray-400">+254 112549166</span>
+                      </li>
+                      <li class="flex items-start">
+                        <div
+                          class="w-5 h-5 flex items-center justify-center text-gray-400 mt-0.5"
+                        >
+                          <i class="ri-map-pin-line"></i>
+                        </div>
+                        <span class="ml-3 text-gray-400"
+                          >Kenya, Kiambu</span
+                        >
+                      </li>
+                    </ul>
+                    <div class="mt-6">
+                        <ul class="space-y-2">
+                       
+                            <a href="./cv colins kunitu (1).docx" class="flex items-center text-gray-400 hover:text-white transition-colors">
+                                <i class="ri-download-line mr-2"></i>
+                                <span>Download CV</span>
+                            </a>
+
+                            
+                        
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
+                >
+                  <p class="text-gray-500">© 2025 Collins Gituku. All rights reserved.</p>
+                  <p class="text-gray-500 mt-4 md:mt-0">Last updated: April 2, 2025</p>
+                </div>
+              </div>
+            </footer>
+
+
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+
+
+        // check box responsive//
+        document.addEventListener('DOMContentLoaded', function() {
+    const checkbox = document.getElementById('consent');
+    const button = document.getElementById('submitButton');
+
+    checkbox.addEventListener('change', function() {
+        if (checkbox.checked) {
+            button.disabled = false;
+        } else {
+            button.disabled = true;
+        }
+    });
+});
+
+//contact form//
+
+
+    </script>
+</body>
+</html>
